@@ -1,0 +1,6 @@
+{
+  "name": "Jay Ranjeet Infra and Realty",
+  "description": "Jay Ranjeet Infra and Realty - Premium real estate developer offering RERA-approved plots, luxury villas, modern flats, and commercial properties with clear titles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

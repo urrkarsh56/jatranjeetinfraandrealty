@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1B2A"/>
+      <stop offset="100%" stop-color="#1B263B"/>
+    </linearGradient>
+    <linearGradient id="sandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F1DE"/>
+      <stop offset="50%" stop-color="#D4C4A8"/>
+      <stop offset="100%" stop-color="#415A77"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle with Warm Sand Border -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGrad)" stroke="url(#sandGrad)" stroke-width="2.5"/>
+  <!-- Inner Ring -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#D4C4A8" stroke-width="0.8" stroke-dasharray="2 2" opacity="0.6"/>
+  <!-- JR Monogram in Cream/Sand -->
+  <text x="32" y="39" font-family="'Sora', 'Outfit', sans-serif" font-size="22" font-weight="800" fill="url(#sandGrad)" text-anchor="middle" letter-spacing="-0.5">JR</text>
+  <!-- Crown Accent -->
+  <polygon points="32,12 33.5,15 36.5,15.5 34,18 35,21 32,19.5 29,21 30,18 27.5,15.5 30.5,15" fill="url(#sandGrad)" opacity="0.9"/>
+</svg>
